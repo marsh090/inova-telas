@@ -69,7 +69,7 @@
   opacity: 0.6;
   font-size: 0.9rem;
   line-height: 1.5;
-  max-width: 30ch;
+  max-width: 300ch;
 }
 
 .center {
@@ -107,6 +107,37 @@
 .logo {
   position: relative;
 }
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 2vh;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 0.2rem;
+}
+
+.fullscreen{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {

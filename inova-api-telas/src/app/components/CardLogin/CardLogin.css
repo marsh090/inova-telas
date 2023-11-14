@@ -6,20 +6,31 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to right, #3498db, #2c3e50);
-}
-
-.container {
-    background-color: #fff;
+    background: linear-gradient(to left, #33b4ca, #e2b5c9);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
-h1 {
-    color: #333;
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
+
+
+h1 {
+    color: #fff; /* Cor branca */
+    font-family: 'Arial', sans-serif; /* Fonte Roboto */
+  }
+  h2 {
+    color: #000000; /* Cor branca */
+    font-family: 'Arial', sans-serif; /* Fonte Roboto */
+  }
 
 form {
     margin-top: 20px;

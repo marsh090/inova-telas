@@ -4,7 +4,7 @@ import './CardLogin.css';
 const CardLogin = () => {
   return (
     <div className="container">
-      <h1>Login Aluno</h1>
+      <h2>Login Aluno</h2>
       <form id="alunoLoginForm">
         <div className="input-container">
           <label htmlFor="matriculaAluno">Matrícula:</label>
